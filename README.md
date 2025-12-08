@@ -329,6 +329,8 @@ Usando a favor el mapa se ve que, tanto w’, x’ y z’ no cambian, al ser max
 
 # Diagramas de diseño
 
+![Diagrama del diseño final](/img/circuitoProteus.png)
+
 # Materiales utilizados y presupuesto
 |Nombre|Precio(Q)|Cantidad|Total(Q)|
 |:-:|:-:|:-:|:-:|
