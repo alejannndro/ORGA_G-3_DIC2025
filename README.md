@@ -346,15 +346,15 @@ Usando a favor el mapa se ve que, tanto w’, x’ y z’ no cambian, al ser max
 |Protoboard|70.00|2|140.00|
 |**Total (Q)**|||222.00|
 
-Con el diseño listo, materiales el montaje quedó de la siguiente manera:
+Con el diseño listo, materiales el montaje quedó armado de la siguiente manera:
 
 ![circuito](/img/circuito.jpg)
 
-Las resistencias identificadas:
+Resistencias identificadas:
 
 ![circuito con resistencias identificadas](/img/circuitoR.jpg)
 
-El resto de componentes identificados:
+Resto de componentes identificados:
 
 ![circuito con componentes identificados](/img/circuitoC.jpg)
 
