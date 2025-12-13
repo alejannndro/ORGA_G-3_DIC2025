@@ -329,7 +329,7 @@ Usando a favor el mapa se ve que, tanto w’, x’ y z’ no cambian, al ser max
 
 # Diagramas de diseño
 
-![Diagrama del diseño final](/img/circuitoProteus.png)
+![Diagrama del diseño final](/practica1/img/circuitoProteus.png)
 
 # Materiales utilizados y presupuesto
 |Nombre|Precio(Q)|Cantidad|Total(Q)|
@@ -348,15 +348,15 @@ Usando a favor el mapa se ve que, tanto w’, x’ y z’ no cambian, al ser max
 
 Con el diseño listo, materiales el montaje quedó de la siguiente manera:
 
-![circuito](/img/circuito.jpg)
+![circuito](/practica1/img/circuito.jpg)
 
 Las resistencias identificadas:
 
-![circuito con resistencias identificadas](/img/circuitoR.jpg)
+![circuito con resistencias identificadas](/practica1/practica1/img/circuitoR.jpg)
 
 El resto de componentes identificados:
 
-![circuito con componentes identificados](/img/circuitoC.jpg)
+![circuito con componentes identificados](/practica1/practica1/img/circuitoC.jpg)
 
 # Roles de trabajo
 
@@ -369,24 +369,24 @@ El resto de componentes identificados:
 
 ## Realización del circuito en físico
 
-![Paso uno realización circuito](/img/circuitoP1.jpg)
+![Paso uno realización circuito](/practica1/img/circuitoP1.jpg)
 > 1. Planteamiento básico con botones (antes de conseguir el dip switch), y prueba de circuito usando el display cátodo (minterminos) para comprobar si funciona.
 
-![Paso uno realizado](/img/circuitoP1d1.jpg)
+![Paso uno realizado](/practica1/img/circuitoP1d1.jpg)
 
-![Paso dos realización circuito](/img/circuitoP2.jpg)
+![Paso dos realización circuito](/practica1/img/circuitoP2.jpg)
 > 2. Construcción del circuito con dip switch usando el display ánodo (uso de maxterminos).
 
-![Paso tres realización circuito](/img/circuitoP3.jpg)
+![Paso tres realización circuito](/practica1/img/circuitoP3.jpg)
 > 3. Simplificación y unión de ambos circuitos para que funcionen con el mismo dip switch, así comprobando el display que muestra la letra normal (cátodo común) y display que muestre la letra espejo (ánodo común).
 
-![Paso 4 realización circuito](/img/circuitoP4.jpg)
+![Paso 4 realización circuito](/practica1/img/circuitoP4.jpg)
 > 4. Circuito en físico completo y con correcto funcionamiento.
 
 ## Fotos de trabajo en equipo
 
-![fotica](/img/equipo.jpg)
-![fotica2](/img/equipo2.jpg)
+![fotica](/practica1/img/equipo.jpg)
+![fotica2](/practica1/img/equipo2.jpg)
 
 # Conclusiones
 
