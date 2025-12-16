@@ -1,9 +1,103 @@
-ESCRIBAN ACÁ
+ESTRUCTURA QUE DEBEMOS TENER:
+- [ ] CARATULA
+- [ ] INTRODUCCION
+- [ ] OBJETIVOS
+- [x] MARCO TEORICO
+- [ ] EXPLICACION DEL SISTEMA
+- [ ] EXPLICACION DEL PROCESSING
+- [ ] LO DEL PRESUPUESTO
+- [ ] RESULTADOS
+- [ ] CONCLUSIONES
+- [ ] APORTES INDIVIDUALES
+- [x] REFERENCIAS BIBLIOGRÁFICAS
 
-# Objetivos.
+PARA EL VIDEO, ORDEN:
+- [ ] Presentación del grupo y explicacion de la practica -> MARIO 
+- [ ] Demostracion del simulador y progra componente a componente
+- [X] se muestra el armado y prueba en fisico 
+- [x] se repite con el resto
+- [X] Explicacion del codigo y simulador final 
+- [ ] se muestra el armado de todo en fisico
+- [x] pruebas de los leds y luz
+- [ ] muestra final usando processing
+
+# Objetivos
 ## General
 Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e implementar un sistema físico funcional de monitoreo ambiental, mediante el uso de sensores, herramientas de adquisición de datos y comunicación serial; permitiéndoles aplicar de manera práctica, conceptos fundamentales de sistemas embebidos, automatización y arquitectura de computadoras, fortaleciendo sus habilidades técnicas y su comprensión a los conocimientos necesarios para el funcionamiento de sistemas electrónicos reales.
 ## Específicos
 1. Identificar y comprender el funcionamiento de los sensores ambientales y los componentes electróncios para la adquisición de datos en un sistema de monitores ambiental.
 2. Diseñar e implementar un sistema embebido con la capacidad de adquirir, procesar y mostrar datos ambientales mediante comunicación serial, asegurando su correcto funcionamiento a nivel físico y también lógico.
 3. Aplicar conceptos fundamentales para sistemas embebidos y automatización para promover en los estudiantes conocimientos y habilidades con respecto a la integración de hardware y software.
+
+# Marco teórico
+
+## 1. Sensores
+
+- Un sensor es un dispositivo electrónico capaz de detectar una magnitud física del entorno, como temperatura, humedad o luz, y convertirla en una señal eléctrica que puede ser interpretada por un microcontrolador.
+- En proyectos con Arduino, los sensores permiten obtener información del entorno en tiempo real para su análisis, visualización y control de otros dispositivos.
+
+### 1.1 Sensor de temperatura y humedad DHT11
+
+- El DHT11 es un sensor digital que mide temperatura y humedad relativa.
+- Internamente utiliza un sensor capacitivo para la humedad y un termistor para la temperatura.
+- La información se transmite mediante una señal digital por un solo pin de datos, lo que facilita su conexión.
+
+- Características principales:
+  - Rango de temperatura: 0 °C a 50 °C
+  - Rango de humedad: 20 % a 90 %
+  - Salida digital
+  - Bajo consumo de energía
+  - Uso común en proyectos educativos
+
+### 1.2 Sensor de luz LDR
+
+- La LDR (Light Dependent Resistor) es una resistencia dependiente de la luz cuya resistencia varía según la intensidad luminosa.
+- A mayor cantidad de luz, menor resistencia; a menor luz, mayor resistencia.
+- Este sensor entrega una señal analógica que puede ser leída por Arduino a través de una entrada analógica usando un divisor de voltaje.
+
+- Aplicaciones comunes:
+  - Medición de luz ambiental
+  - Encendido automático de luces
+  - Sistemas de monitoreo
+
+### 1.3 Actuadores: LEDs y buzzer
+
+- Los LEDs son dispositivos que emiten luz cuando circula corriente eléctrica a través de ellos.
+- Se utilizan como indicadores visuales del estado del sistema.
+- El buzzer es un actuador que genera sonido y se emplea como alerta cuando se cumple una condición específica, como una temperatura elevada o baja iluminación.
+
+---
+
+## 2. Comunicación serial
+
+- La comunicación serial es un método de transmisión de datos en el que la información se envía bit a bit a través de un canal de comunicación.
+- En Arduino, la comunicación serial se utiliza principalmente para intercambiar información entre la placa y una computadora.
+
+### 2.1 Comunicación serial en Arduino
+
+- Arduino utiliza el estándar UART (Universal Asynchronous Receiver-Transmitter).
+- Permite enviar datos como lecturas de sensores hacia el monitor serial del Arduino IDE.
+
+- Funciones principales:
+  - Serial.begin(9600)
+  - Serial.print()
+  - Serial.println()
+
+- La velocidad de transmisión más utilizada es 9600 baudios.
+
+### 2.2 Importancia de la comunicación serial
+
+- Permite visualizar datos en tiempo real.
+- Facilita la depuración del programa.
+- Ayuda a verificar el correcto funcionamiento de sensores y actuadores.
+- Es fundamental en proyectos de monitoreo ambiental.
+
+---
+
+# Referencias bibliográficas
+
+- Arduino. (s.f.). *Arduino Reference*. https://www.arduino.cc/reference/en/
+- Arduino. (s.f.). *Serial Communication*. https://www.arduino.cc/reference/en/language/functions/communication/serial/
+- Adafruit Industries. (s.f.). *DHT11 Temperature & Humidity Sensor*. https://learn.adafruit.com/dht
+- SparkFun Electronics. (s.f.). *Photocell (LDR) Hookup Guide*. https://learn.sparkfun.com/tutorials/photocell-hookup-guide
+- Monk, S. (2016). *Programming Arduino: Getting Started with Sketches*. McGraw-Hill Education.
